@@ -9,17 +9,17 @@ task clean(type: Delete) {
 }
 
 buildscript {
-    repositories {
-        google()  // Google's Maven repository
-    }
+//    repositories {
+//        google()  // Google's Maven repository
+//    }
     dependencies {
         // Add this line
         classpath 'com.google.gms:google-services:4.3.10'
     }
 }
 
-allprojects {
-    repositories {
-        google()  // Google's Maven repository
-    }
-}
+//allprojects {
+//    repositories {
+//        google()  // Google's Maven repository
+//    }
+//}
